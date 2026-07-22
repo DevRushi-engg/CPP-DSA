@@ -1,5 +1,5 @@
 // Display this AP 1,3,5,7,9 .......... upto n terms
-// Arithemetic Progression is the series or pattern in squence
+// Arithemetic Progression is the series or pattern in squence. Each term is obtained by adding a fixed number (called the common difference).
 
 #include <bits\stdc++.h>
 using namespace std;
