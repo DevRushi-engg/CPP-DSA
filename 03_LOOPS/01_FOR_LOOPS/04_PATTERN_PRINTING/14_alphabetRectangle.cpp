@@ -1,0 +1,30 @@
+// Print the pattern
+
+/*
+
+A  B  C  D
+A  B  C  D
+A  B  C  D
+
+*/
+
+#include <bits\stdc++.h>
+using namespace std;
+
+int main(){
+
+    int n;
+    cout<<"No of rows: ";
+    cin>>n;
+
+    int m;
+    cout<<"No of columns:  ";
+    cin>>m;
+
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= m; j++){
+            cout<<(char)(j+64)<<"  ";
+        }
+        cout<<endl;
+    }
+}
